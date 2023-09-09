@@ -17,7 +17,7 @@ Tutor is a single-page website built with HTML, CSS, and JavaScript using the Bo
 ## Usage
 - Explore the landing page to learn more about the Data Science for SEO course.
 - Use the registration form to enroll in the course.
-- Customize the content and design to suit your specific needs if necessary.
+
 
 ## Demo
 
