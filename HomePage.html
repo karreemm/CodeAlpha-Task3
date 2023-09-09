@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="Images/icon2.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutor</title>
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+  </head>
+
+  <style>
+    @media (max-width: 768px) {
+      body {
+        overflow-x: hidden;
+      }
+    }
+    @media (max-width: 991px) {
+      #container {
+        background-color: white !important;
+      }
+    }
+    .form-control:focus {
+      border-color: #2cb8ba;
+      box-shadow: 0 0 0 0.2rem rgba(44, 184, 186, 0.25);
+    }
+
+    .btn:focus {
+      border-color: #ff0055;
+      box-shadow: 0 0 0 0.2rem rgba(154, 7, 65, 0.25);
+    }
+
+    .dotted-hr {
+      border-top: 3px dotted #999;
+      width: 90%;
+      margin: 10px auto;
+    }
+    .rounded-container {
+      margin-top: 40px;
+      background-color: #e1e1ea;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+
+    
+  </style>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary fixed-top"
+      style="background-color: #2cb8ba"
+    >
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          href="#"
+          style="
+            color: black;
+            font-weight: bold;
+            margin-left: 3rem;
+            font-size: x-large;
+          "
+        >
+          <img
+            src="Images/icon2.png"
+            alt="Logo"
+            height="25"
+            class="d-inline-block align-text-top"
+            style="margin-top: 5px"
+          />
+          Tutor
+        </a>
+
+        <div
+          class="collapse navbar-collapse"
+          id="navbarSupportedContent"
+          style="margin-right: 3rem"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                style="color: black; font-weight: bold"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                style="color: black; font-weight: bold"
+                >Tutors</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                style="color: black; font-weight: bold"
+                >Program</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                style="color: black; font-weight: bold"
+                >Location</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                style="color: black; font-weight: bold"
+                >Our Agency</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container" style="margin-top: 15rem; overflow-x: hidden">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h4 style="color: #de154b">Discover New Data Analytics Tools</h4>
+          <h1
+            style="
+              font-size: 2cm;
+              margin-bottom: 0;
+              color: #07045a;
+              font-weight: bold;
+            "
+          >
+            Data Science
+          </h1>
+          <h1
+            style="
+              font-size: 2cm;
+              margin-bottom: 0px;
+              color: #07045a;
+              font-weight: bold;
+            "
+          >
+            for SEO
+          </h1>
+          <p style="margin-top: 2rem; margin-bottom: 0px">
+            Learn to gather and analyze data provided by Google Analytics.
+          </p>
+          <p style="margin-bottom: 5px">
+            Search consoles & web servers with our new data science course.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 d-none d-md-block">
+          <img
+            src="Images/datascince11.jpg"
+            class="img-fluid"
+            alt="Data Science"
+            style="width: 500px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container rounded-container" style="margin-top: 140px">
+      <div class="row" style="background-color: #e1e1ea">
+        <div class="col-12 col-md-3 mb-3 mb-md-0 text-center">
+          <div class="p-3">
+            <h1
+              style="
+                color: #07045a;
+                font-size: 1.5cm;
+                font-weight: bold;
+                margin-bottom: 0;
+              "
+            >
+              20-22
+            </h1>
+            <h5 style="color: #de154b; margin-bottom: 0">October</h5>
+            <p style="margin-top: 2rem">3 days of intense practice</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 mb-3 mb-md-0 text-center">
+          <div class="p-3">
+            <h1
+              style="
+                color: #07045a;
+                font-weight: bold;
+                font-size: 1.5cm;
+                margin-bottom: 0;
+              "
+            >
+              24
+            </h1>
+            <h5 style="color: #de154b; margin-bottom: 0">Hours</h5>
+            <p style="margin-top: 2rem">10:00 AM - 6:00 PM</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 mb-3 mb-md-0 text-center">
+          <div class="p-3">
+            <h1
+              style="
+                color: #07045a;
+                font-weight: bold;
+                font-size: 1.5cm;
+                margin-bottom: 0;
+              "
+            >
+              20
+            </h1>
+            <h5 style="color: #de154b; margin-bottom: 0">Seats</h5>
+            <p style="margin-top: 2rem">Limited number of seats</p>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-3 text-center"
+          style="background-color: #2cb8ba"
+        >
+          <div class="p-3" style="background-color: #2cb8ba">
+            <h1
+              style="
+                color: #07045a;
+                font-weight: bold;
+                font-size: 1.5cm;
+                margin-bottom: 0;
+              "
+            >
+              $245
+            </h1>
+            <h5 style="color: #de154b; margin-bottom: 0">Price</h5>
+            <p style="margin-top: 2rem">Best offer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top: 80px">
+      <div class="row">
+        <div
+          class="col-12 col-md-3 rounded-container"
+          style="background-color: #2cb8ba; padding: 2.5rem"
+        >
+          <h1
+            style="
+              color: #07045a;
+              font-weight: bold;
+              margin-bottom: 0px;
+              font-size: 1.5cm;
+            "
+          >
+            24
+          </h1>
+          <h5 style="color: white; margin-bottom: 0px">Hours</h5>
+          <p style="margin-bottom: 0px; margin-top: 10px">
+            of practice and immersion
+          </p>
+          <p style="margin-bottom: 0px">in data science of SEO</p>
+          <p style="margin-bottom: 0px">specialists</p>
+          <h5 style="color: white; margin-bottom: 0px; margin-top: 20px">
+            Level
+          </h5>
+          <p style="margin-bottom: 0px; margin-top: 10px">Intermediate</p>
+        </div>
+        <div class="col-12 col-md-9">
+          <h1
+            style="
+              font-size: 1.5cm;
+              margin-bottom: 0;
+              color: #07045a;
+              font-weight: bold;
+              margin-top: 20px;
+              margin-left: 3rem;
+            "
+          >
+            About the Course
+          </h1>
+          <p style="margin-top: 25px; font-size: large; margin-left: 3rem">
+            Every day, Google Analytics, Google Search Console, and your web
+            server collect millions of data rows, and SEO experts often only
+            look at summary graphs and rejoice when they increase and get upset
+            when they decrease. It is time to understand the causes and
+            consequences and take the first step in Data Science - dig into this
+            data with your head and find the answers.
+          </p>
+          <p style="margin-top: 25px; font-size: large; margin-left: 3rem">
+            There's no need to invent Google's conspiracy theories if you can
+            find out how data science works and test its main techniques in SEO.
+            Book your seat to get instant access to the course.
+          </p>
+          <button
+            type="button"
+            class="btn"
+            style="
+              background-color: #de154b;
+              color: white;
+              margin-top: 30px;
+              padding: 10px 20px;
+              font-weight: bold;
+              margin-left: 3rem;
+            "
+          >
+            REGISTER
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dotted-hr" style="margin-top: 120px" />
+    <div class="container">
+      <h1
+        style="
+          font-size: 1.5cm;
+          color: #07045a;
+          font-weight: bold;
+          margin-top: 80px;
+        "
+      >
+        Who will benefit
+      </h1>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-12 col-md-4 mb-4">
+          <div class="d-flex flex-column align-items-center">
+            <img
+              src="Images/photo2.jpg"
+              alt="Image"
+              class="img-fluid"
+              style="max-width: 100%; margin-bottom: 10px"
+            />
+            <p style="font-weight: bold">
+              In-house SEO specialists working on large projects.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="d-flex flex-column align-items-center">
+            <img
+              src="Images/photo1.png"
+              alt="Image"
+              class="img-fluid"
+              style="max-width: 100%; margin-bottom: 10px"
+            />
+            <p style="font-weight: bold">
+              Licensed SEO experts and SEO enthusiasts.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="d-flex flex-column align-items-center">
+            <img
+              src="Images/photo3.png"
+              alt="Image"
+              class="img-fluid"
+              style="max-width: 100%; margin-bottom: 10px"
+            />
+            <p style="font-weight: bold; margin-left: 80px">SEO geeks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container text-center"
+      style="background-color: #18164b; margin-top: 100px; padding: 20px"
+    >
+      <div class="row">
+        <div class="col-12 col-md-4 d-none d-md-block">
+          <img
+            src="Images/adver2.png"
+            alt=""
+            class="img-fluid"
+            style="max-height: 300px; margin-top: 30px"
+          />
+        </div>
+        <div class="col-12 col-md-4">
+          <h1
+            style="
+              font-size: 1.5cm;
+              color: #2cb8ba;
+              font-weight: bold;
+              margin-top: 30px;
+            "
+          >
+            Sign up for the course now
+          </h1>
+          <p style="margin-top: 20px; color: white; font-size: x-large">
+            and get a PDF course report & certificate via email
+          </p>
+          <button
+            type="button"
+            class="btn"
+            style="
+              background-color: #de154b;
+              color: white;
+              margin-top: 20px;
+              padding: 10px 20px;
+              font-weight: bold;
+            "
+          >
+            REGISTER
+          </button>
+        </div>
+        <div class="col-12 col-md-4 d-none d-md-block">
+          <img
+            src="Images/adver3.png"
+            alt=""
+            class="img-fluid"
+            style="max-height: 300px; margin-top: 30px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <hr class="dotted-hr" style="margin-top: 120px" />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h1
+            style="
+              font-size: 1.5cm;
+              color: #07045a;
+              font-weight: bold;
+              margin-top: 40px;
+            "
+          >
+            Tutor
+          </h1>
+        </div>
+        <div class="col-md text-center" style="margin-top: 80px">
+          <img
+            src="Images/profile2.jpg"
+            alt="John Williams"
+            class="img-fluid"
+            style="
+              width: 300px;
+              height: 300px;
+              margin-bottom: 20px;
+              border-radius: 100%;
+            "
+          />
+          <h4 style="color: #2cb8ba">John Williams</h4>
+          <p style="margin-top: 10px">
+            Leading SEO specialist at imarket Ltd with 10+ years of professional
+            experience.
+          </p>
+        </div>
+        <div class="col-md text-center" style="margin-top: 80px">
+          <img
+            src="Images/profile3.jpg"
+            alt="Maggie Sutherland"
+            class="img-fluid"
+            style="
+              width: 300px;
+              height: 300px;
+              margin-bottom: 20px;
+              border-radius: 100%;
+            "
+          />
+          <h4 style="color: #2cb8ba">Maggie Sutherland</h4>
+          <p style="margin-top: 10px">
+            Founder and owner of SEObuddy, an award-winning SEO & marketing
+            agency.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top: 150px">
+      <div class="row">
+        <div class="col-lg-9">
+          <img
+            src="Images/audience1.jpg"
+            alt=""
+            class="img-fluid"
+            style="height: 350px; width: 95%"
+          />
+        </div>
+        <div class="col-lg-3">
+          <h1
+            class="display-4"
+            style="color: #07045a; font-weight: bold; margin-top: 0px"
+          >
+            Venue
+          </h1>
+          <p class="lead" style="margin-top: 30px">
+            Our course will take place at one of the biggest modern educational
+            facilities, the SEO Solutions Education Hub. It can host up to 150
+            participants and guests.
+          </p>
+          <h5 style="color: #de154b; margin-top: 30px">
+            178 West 27th St, Suite 527 New York, NY 10012
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container"
+      style="background-color: #2cb8ba; margin-top: 150px; overflow-x: hidden"
+      id="container"
+    >
+      <div class="row">
+        <div class="col-lg-6 d-none d-lg-block">
+          <h1
+            style="
+              font-size: 1.5cm;
+              color: #07045a;
+              font-weight: bold;
+              margin-top: 60px;
+              margin-left: 30px;
+            "
+          >
+            Registration
+          </h1>
+          <img
+            src="Images/adver4.png"
+            alt=""
+            style="height: 300px; margin-left: 120px"
+          />
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div
+            class="col rounded-container"
+            style="
+              background-color: #e1e1ea;
+              height: 400px;
+              width: 450px;
+              padding: 3rem;
+              margin-bottom: 35px;
+              margin-right: 35px;
+            "
+          >
+            <form>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="First Name"
+                  style="width: 100%; padding: 0.5rem 10px"
+                />
+              </div>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Last Name"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                  style="width: 100%; padding: 0.5rem 10px"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Email Adress"
+                  style="width: 100%; padding: 0.5rem 10px"
+                />
+              </div>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Phone Number "
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                  style="width: 100%; padding: 0.5rem 10px"
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="btn"
+                style="
+                  background-color: #de154b;
+                  color: white;
+                  margin-top: 30px;
+                  padding: 10px 20px;
+                  font-weight: bold;
+                "
+              >
+                REGISTER NOW
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top: 70px">
+      <div class="row justify-content-end">
+        <div class="col">
+          <p
+            style="
+              font-weight: bold;
+              font-size: medium;
+              font-family:Verdana, Geneva, Tahoma, sans-serif
+            "
+          >
+            &copy; 2023 Tutor. All Rights Reserved.
+          </p>
+        </div>
+
+        <div class="col-auto">
+          <a href=""
+            ><img src="Images/facebook.png" alt="" style="height: 30px"
+          /></a>
+        </div>
+        <div class="col-auto">
+          <a href=""
+            ><img src="Images/instagram.png" alt="" style="height: 30px"
+          /></a>
+        </div>
+        <div class="col-auto">
+          <a href=""
+            ><img src="Images/linkedin.png" alt="" style="height: 30px"
+          /></a>
+        </div>
+        <div class="col-auto">
+          <a href=""
+            ><img src="Images/pint.png" alt="" style="height: 30px"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 70px"></div>
+    <script src="JS/bootstrap.min.js"></script>
+  </body>
+</html>
