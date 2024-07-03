@@ -19,8 +19,6 @@ Tutor is a single-page website built with HTML, CSS, and JavaScript using the Bo
 - Use the registration form to enroll in the course.
 
 
-## Demo
 
-Check out the live demo of the Tutor Website [here](https://drive.google.com/file/d/1Vn5FaBjOSm9OOnEYZbbUWTGAfbTVyTZ_/view?usp=drive_link) 
 
 
